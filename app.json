@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "th3Bl4Ckx",
-    "slug": "th3Bl4Ckx",
+    "name": "Venka webApp",
+    "slug": "Venka",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#74b841"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundImage": "./assets/bgadaptive.png"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-notifications"
+    ]
   }
 }
