@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Venka webApp",
+    "name": "Venka",
     "slug": "Venka",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.venkalab.venka",
       "supportsTablet": true
+
     },
     "android": {
+      "package": "com.venkalab.venka",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundImage": "./assets/bgadaptive.png"
